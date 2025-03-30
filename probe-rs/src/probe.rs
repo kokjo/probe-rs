@@ -13,6 +13,7 @@ pub mod list;
 pub mod sifliuart;
 pub mod stlink;
 pub mod wlink;
+pub mod tcpprobe;
 
 use crate::architecture::arm::ArmError;
 use crate::architecture::arm::sequences::{ArmDebugSequence, DefaultArmSequence};
